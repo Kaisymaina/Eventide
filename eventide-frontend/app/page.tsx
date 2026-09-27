@@ -2,21 +2,22 @@
 
 import React from "react";
 import { useApp } from "@/context/AppContext";
-import { Navbar } from "@/Landingpage/Navbar";
-import { RegistrationGate } from "@/Landingpage/RegistrationGate";
-import { HeroSlideshow } from "@/Landingpage/HeroSlideshow";
-import { CategoryShowcase } from "@/Landingpage/CategoryShowcase";
-import { WebsiteSummarySection } from "@/Landingpage/WebsiteSummarySection";
-import { AllEventsPage } from "@/Landingpage/AllEventsPage";
-import { EventCard } from "@/Landingpage/EventCard";
-import { EventCardSkeleton } from "@/Landingpage/EventCardSkeleton";
-import { EventDetailsModal } from "@/Landingpage/EventDetailsModal";
-import { VendingSection } from "@/Landingpage/VendingSection";
-import { TicketModal } from "@/Landingpage/TicketModal";
-import { UserDashboard } from "@/Landingpage/UserDashboard";
-import { CreateEventWizard } from "@/Landingpage/CreateEventWizard";
-import { EventDetailsPage } from "@/Landingpage/EventDetailsPage";
-import { Footer } from "@/Landingpage/Footer";
+import { Navbar } from "@/components/navigation/Navbar";
+import { RegistrationGate } from "@/components/modals/RegistrationGate";
+import { HeroSlideshow } from "@/components/sections/HeroSlideshow";
+import { CategoryShowcase } from "@/components/sections/CategoryShowcase";
+import { WebsiteSummarySection } from "@/components/sections/WebsiteSummarySection";
+import { AllEventsPage } from "@/components/pages/AllEventsPage";
+import { EventCard } from "@/components/cards/EventCard";
+import { EventCardSkeleton } from "@/components/cards/EventCardSkeleton";
+import { EventDetailsModal } from "@/components/modals/EventDetailsModal";
+import { VendingSection } from "@/components/sections/VendingSection";
+import { TicketModal } from "@/components/modals/TicketModal";
+import { UserDashboard } from "@/components/pages/UserDashboard";
+import { CreateEventWizard } from "@/components/pages/CreateEventWizard";
+import { EventDetailsPage } from "@/components/pages/EventDetailsPage";
+import { Footer } from "@/components/navigation/Footer";
+
 import {
   Sparkles,
   ArrowRight,

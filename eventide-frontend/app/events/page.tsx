@@ -1,10 +1,10 @@
 "use client";
 
 import React from "react";
-import { Navbar } from "@/Landingpage/Navbar";
-import { Footer } from "@/Landingpage/Footer";
-import { AllEventsPage } from "@/Landingpage/AllEventsPage";
-import { RegistrationGate } from "@/Landingpage/RegistrationGate";
+import { Navbar } from "@/components/navigation/Navbar";
+import { Footer } from "@/components/navigation/Footer";
+import { AllEventsPage } from "@/components/pages/AllEventsPage";
+import { RegistrationGate } from "@/components/modals/RegistrationGate";
 
 export default function EventsPage() {
   return (

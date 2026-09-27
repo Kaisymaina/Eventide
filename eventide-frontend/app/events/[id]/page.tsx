@@ -2,9 +2,9 @@
 
 import React, { use } from "react";
 import { useApp } from "@/context/AppContext";
-import { Navbar } from "@/Landingpage/Navbar";
-import { Footer } from "@/Landingpage/Footer";
-import { EventDetailsPage } from "@/Landingpage/EventDetailsPage";
+import { Navbar } from "@/components/navigation/Navbar";
+import { Footer } from "@/components/navigation/Footer";
+import { EventDetailsPage } from "@/components/pages/EventDetailsPage";
 
 export default function EventPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
